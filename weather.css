@@ -1,0 +1,165 @@
+#forecast {
+  margin-top: 30px;
+}
+
+#forecast h2 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+
+#forecast-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.forecast-card {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+}
+
+.forecast-card img {
+  width: 50px;
+  height: 50px;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #2980b9, #6dd5fa);
+  color: black;
+  text-align: center;
+  padding: 50px;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#weather p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #e0f7fa;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #ffffffcc;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #90caf9;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+#cityInput {
+  flex-grow: 1;
+  padding: 8px 12px;
+  font-size: 1em;
+  border: 1px solid #90caf9;
+  border-radius: 4px;
+}
+
+#searchBtn {
+  padding: 8px 16px;
+  background-color: #0288d1;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#searchBtn:hover {
+  background-color: #0277bd;
+}
+
+#weather p {
+  font-size: 1.2em;
+  margin: 8px 0;
+}
+
+#forecast {
+  margin-top: 30px;
+}
+
+#forecast-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.forecast-card {
+  background: #0288d1;
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+  flex: 1 1 80px;
+  text-align: center;
+}
+
+.forecast-card img {
+  width: 50px;
+  height: 50px;
+}
+.div{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+#hourly-forecast {
+  margin-top: 30px;
+}
+
+#hourly-cards {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+
+.hourly-card {
+  background: #4fc3f7;
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  min-width: 100px;
+  flex: 0 0 auto;
+}
+
+.hourly-card img {
+  width: 40px;
+  height: 40px;
+}
